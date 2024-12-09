@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixel Grafikus Program</title>
+</head>
+<body>
+  <div id="toolbar">
+    <label for="color">Szín:</label>
+    <input type="color" id="color" value="#000000">
+
+    <label for="thickness">Vastagság:</label>
+    <input type="range" id="thickness" min="1" max="10" value="1">
+
+    <button id="line">Vonal</button>
+    <button id="circle">Kör</button>
+    <button id="rectangle">Téglalap</button>
+    <button id="save">Mentés</button>
+    <input type="file" id="upload" accept="image/*">
+  </div>
+
+  <canvas id="drawingCanvas"></canvas>
+
+  <button id="clear">Törlés</button>
+  <script src="script.js"></script>
+</body>
+</html>
