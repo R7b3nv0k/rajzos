@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #toolbar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
